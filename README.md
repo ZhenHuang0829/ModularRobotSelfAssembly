@@ -1,5 +1,6 @@
-# ModularRobotSelfAssembly 
+# Self-Assembly Planning for Modular Robots via Multi-Agent Path Finding on Time-Expanded Networks
 Welcome to this repository! This is the source code of our proposed modular robot self-assembly algorithm.
-We consider the self-assembly problem as a time-varying online Multi-Agent Path Finding (MAPF) problem.
 
-The code will be uploaded after the acceptance of the submitted conference.
+Self-assembly planning for modular robots is critical for constructing functional structures, yet existing methods often suffer from inefficiency, poor scalability, or collision risks. This paper presents an innovative framework that formulates modular robot self-assembly as a time-varying online Multi-Agent Path Finding (MAPF) problem and resolves it through an enhanced Time-Expanded Network (TEN). Key modifications are introduced to handle the dynamic nature of the self-assembly process, including the varying number of agents and evolving target configurations. Simulations conducted with hexagonal modular robots demonstrate that the proposed algorithm significantly outperforms the benchmark A*-based approach in terms of both assembly efficiency and success rate across various target configurations. The proposed framework establishes a scalable planning framework for modular robot self-assembly, with future extensions toward real-world validation.
+
+The code is implemented in python, and simulations are built on MuJoCo environment.
